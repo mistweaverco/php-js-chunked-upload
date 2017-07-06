@@ -11,7 +11,7 @@ var ChunkyUpload = function(opts) {
   opts.maxChunkSizeInBytes         = opts.maxChunkSizeInBytes || 1024*100*10*1.5; // 1.5 MB
   opts.maxUploadRetries            = opts.maxUploadRetries || 5;
   opts.uploadRetryTimeoutInSeconds = opts.uploadRetryTimeoutInSeconds || 10;
-  opts.uploadUrl                   = opts.uploadUrl || "upload";
+  opts.uploadUrl                   = opts.uploadUrl || "upload.php";
   opts.fileInput                   = opts.fileInput || $('#fileInput').get(0);
   opts.fileList                    = opts.fileList || $('#file-list').get(0);
 
